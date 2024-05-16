@@ -21,7 +21,7 @@ To run experiments execute the command "run_examples.py -e example". Where examp
 - NNMF_text_cosine: NNMF with the cosine loss on the 20newsgroupdataset.
 - NNMF_image_noncvx: NNMF with frobenius loss and nonconvex regularisation on the faces dataset.
 
-Each run will generate a new timestamped folder in the results folder. Within the results folder a .json file will be created for each algorithm. The "settings" key includes the parameter settings used to run each method. The results included in the paper are available already in the results folder. Our runs were performed on a GPU cluster.
+Each run will generate a new timestamped folder in the results folder. Within the results folder a .json file will be created for each algorithm. The "settings" key includes the parameter settings used to run each method. Our runs were performed on a GPU cluster.
 
 ## Generating plots 
 To view the plots for a result run the command "plot_examples.py -f folder". Where folder is the name of the folder the results are in. e.g. "./resuls/{folder}/". The plots used in the paper are included in the "plots" folder.
