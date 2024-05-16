@@ -23,7 +23,6 @@ def get_results(folder):
     results_folder = os.path.join(utils.Results.FOLDER, folder)
     result_files = os.listdir(results_folder)
     result_files.sort(key=lambda x: ORDER_KEY[x] )
-    label = [FILE_KEY[x] for x in result_files]
 
     results = []
     for file in result_files:
