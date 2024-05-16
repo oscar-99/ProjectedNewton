@@ -1,0 +1,5 @@
+# So git ignores the contents of results but not the folder itself. 
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
